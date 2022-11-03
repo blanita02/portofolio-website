@@ -1,10 +1,16 @@
+import { Box } from '@mui/material';
+import { useStyles } from './styles';
 import React from 'react';
+import Navbar from './Navbar/Navbar';
 
 const LandingPage = () => {
+  const classes = useStyles();
   return (
-    <div>
-      <h1>Landing Page</h1>
-    </div>
+    <Box className={classes.wrapper}>
+      <Box className={classes.container}>
+        <Navbar />
+      </Box>
+    </Box>
   );
 };
 

@@ -1,5 +1,7 @@
+import LaunchRouter from './routes/LaunchRouter';
+
 const App = () => {
-  return <div>Hello</div>;
+  return <LaunchRouter />;
 };
 
 export default App;

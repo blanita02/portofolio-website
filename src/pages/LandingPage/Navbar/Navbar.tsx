@@ -1,10 +1,19 @@
 import React from 'react';
+import { Box, Typography, Button, Drawer } from '@mui/material';
+import { useStyles } from './styles';
+import { LogoSign, NavButton } from 'src/assets/index';
 
 const Navbar = () => {
+  const classes = useStyles();
   return (
-    <div>
-      <h1>Navbar</h1>
-    </div>
+    <Box className={classes.container}>
+      <Box className={classes.logoContainer}>
+        <Typography className={classes.logoText}>Nistor</Typography>
+      </Box>
+      <Box className={classes.navButtonContainer}>
+        <NavButton />
+      </Box>
+    </Box>
   );
 };
 
