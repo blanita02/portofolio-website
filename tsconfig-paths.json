@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@pages/*": ["src/pages/*"],
+      "@routes/*": ["src/routes/*"],
+      "@themes/*": ["src/themes/*"]
+    }
+  }
+}
