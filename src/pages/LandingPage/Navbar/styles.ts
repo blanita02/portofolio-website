@@ -1,9 +1,9 @@
 import { makeStyles } from '@mui/styles';
-import { Theme } from '@mui/material';
+import { keyframes, Theme } from '@mui/material';
 
 const useStyles = makeStyles((theme: Theme) => ({
   //----------> CONTAINER <----------
-  container: {
+  navContainer: {
     display: 'flex',
     flex: 1,
     justifyContent: 'space-between',
@@ -16,19 +16,36 @@ const useStyles = makeStyles((theme: Theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  //----------> STYLES <----------
-  logoText: {
-    '&.MuiTypography-root': {
-      fontWeight: 800,
-      fontFamily: 'Poppins',
-      fontSize: 36,
-    },
-  },
   navButtonContainer: {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     cursor: 'pointer',
+  },
+  drawerContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 16,
+  },
+  closeDrawerButtonContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    cursor: 'pointer',
+  },
+
+  //` ----------> KEYFRAMES <----------
+
+  //----------> STYLES <----------
+  logoText: {
+    '&.MuiTypography-root': {
+      fontWeight: 800,
+      cursor: 'pointer',
+      fontFamily: 'Poppins',
+      fontSize: 36,
+    },
   },
 }));
 
