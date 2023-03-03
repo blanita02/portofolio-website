@@ -15,7 +15,9 @@ const PostCard = (props: PostCardProps) => {
   const classes = useStyles();
   return (
     <Box className={classes.cardContainer}>
+      <Box className={classes.logoContainer}>{props.logo}</Box>
       <Typography>{props.title}</Typography>
+      <Typography>{props.description}</Typography>
     </Box>
   );
 };

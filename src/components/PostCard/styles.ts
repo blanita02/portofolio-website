@@ -11,6 +11,11 @@ const useStyles = makeStyles((theme: Theme) => ({
     width: 200,
     maxHeight: 300,
   },
+  logoContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 }));
 
 export { useStyles };

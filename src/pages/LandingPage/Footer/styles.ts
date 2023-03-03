@@ -1,43 +1,23 @@
 import { makeStyles } from '@mui/styles';
 import { keyframes, Theme } from '@mui/material';
+import { colors } from 'src/themes/colors';
 
 const useStyles = makeStyles((theme: Theme) => ({
   //----------> CONTAINER <----------
-  navContainer: {
+  mainContainer: {
     display: 'flex',
     flex: 1,
+    flexDirection: 'row',
     justifyContent: 'space-between',
-    paddingInline: 24,
     alignItems: 'center',
-    columnGap: 64,
   },
   logoContainer: {
     display: 'flex',
-    flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  navButtonContainer: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    cursor: 'pointer',
-  },
-  drawerContainer: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    gap: 16,
-  },
-  closeDrawerButtonContainer: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    cursor: 'pointer',
   },
 
-  //` ----------> KEYFRAMES <----------
+  //----------> KEYFRAMES <----------\
 
   //----------> STYLES <----------
   logoText: {

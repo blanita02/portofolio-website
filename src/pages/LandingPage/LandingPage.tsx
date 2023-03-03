@@ -4,6 +4,8 @@ import React from 'react';
 import Navbar from './Navbar/Navbar';
 import PostSection from './PostSection/PostSection';
 import BannerSection from './BannerSection/BannerSection';
+import Footer from './Footer/Footer';
+import WorkSection from './WorkSection/WorkSection';
 
 const LandingPage = () => {
   const classes = useStyles();
@@ -12,9 +14,11 @@ const LandingPage = () => {
       <Box className={classes.container}>
         <Navbar />
         <BannerSection />
+        <WorkSection />
         <Box>
           <PostSection />
         </Box>
+        <Footer />
       </Box>
     </Box>
   );

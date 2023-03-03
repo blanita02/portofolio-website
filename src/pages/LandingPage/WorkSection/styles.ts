@@ -3,49 +3,36 @@ import { keyframes, Theme } from '@mui/material';
 
 const useStyles = makeStyles((theme: Theme) => ({
   //----------> CONTAINER <----------
-  navContainer: {
+  mainContainer: {
     display: 'flex',
     flex: 1,
-    justifyContent: 'space-between',
-    paddingInline: 24,
+    height: 600,
+    flexDirection: 'column',
+    justifyContent: 'center',
     alignItems: 'center',
-    columnGap: 64,
   },
-  logoContainer: {
+  titleContainer: {
+    display: 'flex',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  postCardContainer: {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
   },
-  navButtonContainer: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    cursor: 'pointer',
-  },
-  drawerContainer: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    gap: 16,
-  },
-  closeDrawerButtonContainer: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    cursor: 'pointer',
-  },
 
-  //` ----------> KEYFRAMES <----------
+  //----------> KEYFRAMES <----------
 
   //----------> STYLES <----------
-  logoText: {
-    padding: '0 16px',
+  postTitle: {
     '&.MuiTypography-root': {
-      fontWeight: 300,
+      fontWeight: 800,
+      fontSize: 36,
       color: '#FFFFFF',
-      fontSize: 20,
+      textShadow: '0px 0px 20px rgba(0, 0, 0, 0.70)',
     },
   },
 }));

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Box, Typography, Button, Drawer } from '@mui/material';
 import { useStyles } from './styles';
-import { LogoSign, NavButton } from 'src/assets/index';
+import { NavButton } from 'src/assets/index';
+import { LogoSign } from 'src/assets/img/index';
 import NavDrawer from 'src/components/NavDrawer/NavDrawer';
 
 const Navbar = () => {
@@ -10,7 +11,10 @@ const Navbar = () => {
   return (
     <Box className={classes.navContainer}>
       <Box className={classes.logoContainer}>
-        <Typography className={classes.logoText}>Nistor</Typography>
+        <img src={LogoSign} width={64} height={64} />
+        <Typography className={classes.logoText}>
+          Nistor <br /> Alexandru
+        </Typography>
       </Box>
       <Button
         className={classes.navButtonContainer}

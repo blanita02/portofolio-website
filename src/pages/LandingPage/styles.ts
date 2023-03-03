@@ -7,10 +7,10 @@ const useStyles = makeStyles((theme: Theme) => ({
       width: '0.4em',
     },
     '*::-webkit-scrollbar-track': {
-      '-webkit-box-shadow': 'inset 0 0 6px rgba(0,0,0,0.00)',
+      '-webkit-box-shadow': 'inset 0 0 6px rgba(0,0,0,0.5)',
     },
     '*::-webkit-scrollbar-thumb': {
-      backgroundColor: 'rgba(0,0,0,.1)',
+      backgroundColor: 'rgba(0,0,0,.8)',
     },
   },
   //----------> CONTAINER <----------
@@ -18,9 +18,9 @@ const useStyles = makeStyles((theme: Theme) => ({
     display: 'flex',
     justifyContent: 'center',
     postion: 'relative',
-    backgroundImage: `linear-gradient( -25deg, rgba(5,5,5,1) 0%, rgba(30,30,30,1) 25%, rgba(47,47,47,1) 51%, rgba(71,71,71,1) 100%)`,
+    backgroundImage: `linear-gradient( 25deg, rgba(50,50,50,1) 0%, rgba(30,30,30,1) 25%, rgba(70,70,70,1) 51%, rgba(10,10,10,1) 100%)`,
     backgroundSize: '300% 300%',
-    animation: `$colorPulse 7s ease infinite`,
+    animation: `$colorPulse 12s infinite`,
   },
 
   container: {
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     position: 'relative',
     flex: 1,
     flexDirection: 'column',
-    maxWidth: 1440,
+    maxWidth: 1600,
   },
 
   //----------> KEYFRAMES <----------
