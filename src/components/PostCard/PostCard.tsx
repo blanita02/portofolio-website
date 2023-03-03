@@ -16,7 +16,7 @@ const PostCard = (props: PostCardProps) => {
   return (
     <Box className={classes.cardContainer}>
       <Box className={classes.logoContainer}>{props.logo}</Box>
-      <Typography>{props.title}</Typography>
+      <Typography className={classes.titleText}>{props.title}</Typography>
       <Typography>{props.description}</Typography>
     </Box>
   );

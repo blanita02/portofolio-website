@@ -1,4 +1,4 @@
 import BannerPhoto from './BannerPhoto.png';
-import LogoSign from './LogoSign.png';
+import LogoSign from './logoSign.png';
 
 export { BannerPhoto, LogoSign };
