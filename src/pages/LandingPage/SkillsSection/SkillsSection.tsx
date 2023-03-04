@@ -1,4 +1,4 @@
-import { GraduateCap } from 'src/assets/index';
+import { CodeSVG, GraduateCap } from 'src/assets/index';
 import { ClassNames } from '@emotion/react';
 import { Box, Typography } from '@mui/material';
 import PostCard from 'src/components/PostCard/PostCard';
@@ -18,17 +18,58 @@ const SkillsSection = () => {
       </Box>
       <Box className={classes.postCardContainer}>
         <PostCard
-          title='Faculty of Mathematics and Computer Science'
-          shortText='2021-2024'
+          title='Java'
+          shortText='-'
           description={
             <>
-              - Algorithms and Programming - <br />
-              - Data Structures - <br />
-              - OOP - <br />
-              - Geometry/Algebra/Analysis - <br />
+              - Experienced with OOP - <br />
+              - Experienced with Data Structures and - <br />
+              - Algorithms - <br />
+              - Experienced with databases - <br />
             </>
           }
-          logo={<GraduateCap width={64} height={64}></GraduateCap>}
+          logo={<CodeSVG width={64} height={64}></CodeSVG>}
+        />
+        <PostCard
+          title='Python'
+          shortText='-'
+          description={
+            <>
+              - Experienced with OOP - <br />
+              - Experienced with Data Structures and - <br />
+              - Algorithms - <br />
+              - Basic knowledge with databases - <br />
+              - Basic knowledge of testing - <br />
+            </>
+          }
+          logo={<CodeSVG width={64} height={64}></CodeSVG>}
+        />
+        <PostCard
+          title='C/C++'
+          shortText='-'
+          description={
+            <>
+              - Experienced with OOP - <br />
+              - Experienced with Data Structures and - <br />
+              - Algorithms - <br />
+              - Basic knowledge of testing - <br />
+            </>
+          }
+          logo={<CodeSVG width={64} height={64}></CodeSVG>}
+        />
+        <PostCard
+          title='JavaScript/TypeScript'
+          shortText='-'
+          description={
+            <>
+              - Vast Experience with React- <br />
+              - Experienced with OOP - <br />
+              - Experienced with Data Structures and - <br />
+              - Algorithms - <br />
+              - Basic knowledge of testing - <br />
+            </>
+          }
+          logo={<CodeSVG width={64} height={64}></CodeSVG>}
         />
       </Box>
     </Box>
