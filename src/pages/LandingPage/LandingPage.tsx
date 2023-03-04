@@ -6,6 +6,7 @@ import PostSection from './PostSection/PostSection';
 import BannerSection from './BannerSection/BannerSection';
 import Footer from './Footer/Footer';
 import WorkSection from './WorkSection/WorkSection';
+import SkillsSection from './SkillsSection/SkillsSection';
 
 const LandingPage = () => {
   const classes = useStyles();
@@ -15,9 +16,11 @@ const LandingPage = () => {
         <Navbar />
         <BannerSection />
         <WorkSection />
+        <SkillsSection />
         <Box>
           <PostSection />
         </Box>
+
         <Footer />
       </Box>
     </Box>

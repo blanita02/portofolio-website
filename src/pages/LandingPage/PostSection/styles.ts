@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     display: 'flex',
     flex: 1,
     height: 600,
+    paddingBottom: 128,
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
@@ -54,6 +55,11 @@ const useStyles = makeStyles((theme: Theme) => ({
       color: '#FFFFFF',
       textShadow: '0px 0px 20px rgba(0, 0, 0, 0.70)',
     },
+  },
+  dividerText: {
+    color: '#FFFFFF',
+    alignSelf: 'center',
+    fontWeight: 1200,
   },
 }));
 

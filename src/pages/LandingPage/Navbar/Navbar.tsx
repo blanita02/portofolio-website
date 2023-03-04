@@ -16,13 +16,13 @@ const Navbar = () => {
           Nistor <br /> Alexandru
         </Typography>
       </Box>
-      <Button
+      {/* <Button
         className={classes.navButtonContainer}
         onClick={() => setIsModalOpen(!isModalOpen)}
       >
         {isModalOpen && <NavDrawer />}
         {<NavButton />}
-      </Button>
+      </Button> */}
     </Box>
   );
 };

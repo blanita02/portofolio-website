@@ -12,8 +12,11 @@ const BannerSection = () => {
       <Box className={classes.textContainer}>
         <Typography className={classes.title}>About Me</Typography>
         <Typography className={classes.subtitle}>
-          - Highly motivated Computer Science & Mathematics Student - <br /> -
-          Web Developer -
+          - Highly motivated Computer Science & Mathematics Student - <br />
+          - Second year of college at UBB Cluj-Napoca - <br /> - Web Developer -{' '}
+          <br />
+          - Seeking to grow my knowledge and skills on a daily basis -
+          <br />
         </Typography>
       </Box>
     </Box>

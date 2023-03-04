@@ -5,12 +5,12 @@ import PostCard from 'src/components/PostCard/PostCard';
 import { useStyles } from './styles';
 import { LineDivider } from 'src/assets/img/index';
 
-const WorkSection = () => {
+const SkillsSection = () => {
   const classes = useStyles();
   return (
     <Box className={classes.mainContainer}>
       <Box className={classes.titleContainer}>
-        <Typography className={classes.postTitle}>Work & Education</Typography>
+        <Typography className={classes.postTitle}>Skills</Typography>
       </Box>
       <Box className={classes.dividerText}>
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -35,4 +35,4 @@ const WorkSection = () => {
   );
 };
 
-export default WorkSection;
+export default SkillsSection;

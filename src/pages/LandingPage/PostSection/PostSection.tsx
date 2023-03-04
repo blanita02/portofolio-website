@@ -24,7 +24,11 @@ const PostSection = () => {
   return (
     <Box className={classes.mainContainer}>
       <Box className={classes.titleContainer}>
-        <Typography className={classes.postTitle}>Websites</Typography>
+        <Typography className={classes.postTitle}>My Projects</Typography>
+      </Box>
+      <Box className={classes.dividerText}>
+        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        - - - - - - - - - - - - - - - - - - - - - - - - - - -
       </Box>
       <HorizontalScroll reverseScroll={true}>
         <ImageList className={classes.imageContainer} gap={120}>

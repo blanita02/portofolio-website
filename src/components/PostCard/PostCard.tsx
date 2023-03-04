@@ -7,17 +7,21 @@ import { useStyles } from './styles';
 
 type PostCardProps = {
   title: string;
-  description: string;
+  shortText: string;
+  description: React.ReactNode;
   logo: React.ReactNode;
 };
 
 const PostCard = (props: PostCardProps) => {
   const classes = useStyles();
   return (
-    <Box className={classes.cardContainer}>
+    <Box className={classes.mainContainer}>
       <Box className={classes.logoContainer}>{props.logo}</Box>
       <Typography className={classes.titleText}>{props.title}</Typography>
-      <Typography>{props.description}</Typography>
+      <Typography className={classes.shortText}>{props.shortText}</Typography>
+      <Typography className={classes.descriptionText}>
+        {props.description}
+      </Typography>
     </Box>
   );
 };
