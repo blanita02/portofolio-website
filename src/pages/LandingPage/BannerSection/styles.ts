@@ -58,11 +58,11 @@ const useStyles = makeStyles((theme: Theme) => ({
     opacity: 0.4,
     '&.MuiTypography-root': {
       textShadow:
-        '-1px -1px 1px rgba(255,255,255,0.8), 2px 2px 5px rgba(0,0,0,1)',
+        '-1px -1px 1px rgba(255,255,255,0.2), 2px 2px 5px rgba(0,0,0,1)',
       fontFamily: 'Fjalla One, sans-serif',
       fontWeight: 800,
       fontSize: 80,
-      color: colors.GREY,
+      color: colors.BLACK,
     },
   },
   subtitle: {

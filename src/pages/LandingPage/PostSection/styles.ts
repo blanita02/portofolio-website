@@ -6,11 +6,10 @@ const useStyles = makeStyles((theme: Theme) => ({
   mainContainer: {
     display: 'flex',
     flex: 1,
-    height: 700,
-    paddingBottom: 128,
+    height: 720,
+    paddingBottom: 96,
     flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
+    overflow: 'hidden',
   },
   titleContainer: {
     display: 'flex',
@@ -21,11 +20,12 @@ const useStyles = makeStyles((theme: Theme) => ({
 
   imageContainer: {
     gridAutoFlow: 'column',
-    gridTemplateColumns: 'repeat(auto-fill,minmax(460px, 1fr)) !important',
-    gridAutoColumns: 'minmax(460px, 1fr)',
+    gridTemplateColumns: 'minmax(500px, 1fr) !important',
+    gridAutoColumns: 'minmax(500px, 1fr) !important',
     '&.MuiImageList-root': {
       paddingTop: 48,
       padding: 20,
+      overflow: 'hidden',
     },
   },
   //----------> KEYFRAMES <----------
@@ -43,17 +43,24 @@ const useStyles = makeStyles((theme: Theme) => ({
 
   //----------> STYLES <----------
   imageItem: {
-    borderRadius: 8,
+    display: 'flex',
+    flex: 1,
+    borderRadius: 12,
     '&:hover': {
       animation: `$fadeIn 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both`,
       cursor: 'pointer',
     },
     '&:hover $barImage': {
       opacity: 1,
+      transform: 'translateY(0)',
     },
   },
   barImage: {
     opacity: 0,
+    borderBottomLeftRadius: 8,
+    borderBottomRightRadius: 8,
+    transform: 'translateY(100%)',
+    transition: 'transform 0.2s',
   },
   postTitle: {
     '&.MuiTypography-root': {

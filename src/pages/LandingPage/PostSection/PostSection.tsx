@@ -35,12 +35,12 @@ const PostSection = () => {
           {imageListData.map((item) => (
             <ImageListItem className={classes.imageItem} key={item.img}>
               <img
-                src={`${item.img}?w=948&fit=crop&auto=format`}
-                srcSet={`${item.img}?w=948&fit=crop&auto=format&dpr=2 2x  `}
+                src={`${item.img}?w=968px`}
+                srcSet={`${item.img}?w=968px`}
                 alt={item.title}
                 loading='lazy'
-                style={{ borderRadius: '4px' }}
-                onClick={() => window.open(item.web_url, '_blank')}
+                style={{ borderRadius: '8px' }}
+                onClick={() => window.open(item.web_url)}
               />
               <ImageListItemBar
                 className={classes.barImage}
