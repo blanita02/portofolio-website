@@ -39,19 +39,13 @@ const PostSection = () => {
                 srcSet={`${item.img}?w=948&fit=crop&auto=format&dpr=2 2x  `}
                 alt={item.title}
                 loading='lazy'
+                style={{ borderRadius: '4px' }}
+                onClick={() => window.open(item.web_url, '_blank')}
               />
               <ImageListItemBar
+                className={classes.barImage}
                 title={item.title}
                 subtitle={item.author}
-                actionIcon={
-                  <IconButton
-                    sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
-                    aria-label={`info about ${item.title}`}
-                    onClick={() => window.open(item.web_url, '_blank')}
-                  >
-                    ABOUT
-                  </IconButton>
-                }
               />
             </ImageListItem>
           ))}

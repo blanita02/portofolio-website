@@ -34,6 +34,12 @@ const useStyles = makeStyles((theme: Theme) => ({
       fontSize: 20,
     },
   },
+  socialMediaIcon: {
+    borderRadius: 16,
+    width: 48,
+    height: 48,
+    boxShadow: '2px 2px 4px rgba(0, 0, 0, 0.70)',
+  },
 }));
 
 export { useStyles };

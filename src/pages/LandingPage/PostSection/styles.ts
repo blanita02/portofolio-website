@@ -43,10 +43,17 @@ const useStyles = makeStyles((theme: Theme) => ({
 
   //----------> STYLES <----------
   imageItem: {
+    borderRadius: 8,
     '&:hover': {
-      animation: `$fadeIn 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both`,
-      padding: 12,
+      animation: `$fadeIn 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both`,
+      cursor: 'pointer',
     },
+    '&:hover $barImage': {
+      opacity: 1,
+    },
+  },
+  barImage: {
+    opacity: 0,
   },
   postTitle: {
     '&.MuiTypography-root': {

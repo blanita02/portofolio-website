@@ -4,7 +4,7 @@ import { Theme } from '@mui/material';
 const useStyles = makeStyles((theme: Theme) => ({
   //----------> CONTAINER <----------
   mainContainer: {
-    background: 'linear-gradient(to bottom, #313131, #575757)',
+    // background: 'linear-gradient(to bottom, #313131, #575757)',
     borderRadius: 24,
     rowGap: 12,
     margin: 12,

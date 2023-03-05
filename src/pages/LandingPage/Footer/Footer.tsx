@@ -17,13 +17,12 @@ const Footer = () => {
       </Box>
       <Box className={classes.socialMediaContainer}>
         <LinkedinSVG
+          className={classes.socialMediaIcon}
           onClick={() =>
             window.open(
               'https://www.linkedin.com/in/alexandru-nistor-135b89232/'
             )
           }
-          width={48}
-          height={48}
         />
       </Box>
     </Box>
