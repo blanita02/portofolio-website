@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portofolio-website/static/css/main.e6c13ad2.css",
+    "main.js": "/portofolio-website/static/js/main.e2448914.js",
+    "static/js/787.f057d41a.chunk.js": "/portofolio-website/static/js/787.f057d41a.chunk.js",
+    "static/media/logoSign.png": "/portofolio-website/static/media/logoSign.0ffb49c7c6ded5c2c247.png",
+    "static/media/BannerPhoto.png": "/portofolio-website/static/media/BannerPhoto.ee8e237945427682eb9e.png",
+    "static/media/lineDivider.png": "/portofolio-website/static/media/lineDivider.036c6c026e777fbc9395.png",
+    "static/media/LogoSign.svg": "/portofolio-website/static/media/LogoSign.92e200ac41e38eda9481c91c90784f85.svg",
+    "static/media/code.svg": "/portofolio-website/static/media/code.82d948c6c5f26ceb6bb583a648ddf969.svg",
+    "index.html": "/portofolio-website/index.html",
+    "static/media/GraduateCap.svg": "/portofolio-website/static/media/GraduateCap.5fecd892116a19883bd9829b73e2ab41.svg",
+    "static/media/linkedin.svg": "/portofolio-website/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
+    "static/media/NavButton.svg": "/portofolio-website/static/media/NavButton.53c9d6278b1e4f5171c68708ef2324ec.svg",
+    "main.e6c13ad2.css.map": "/portofolio-website/static/css/main.e6c13ad2.css.map",
+    "main.e2448914.js.map": "/portofolio-website/static/js/main.e2448914.js.map",
+    "787.f057d41a.chunk.js.map": "/portofolio-website/static/js/787.f057d41a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e2448914.js"
+  ]
+}
