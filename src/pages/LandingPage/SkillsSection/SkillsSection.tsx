@@ -59,14 +59,13 @@ const SkillsSection = () => {
         />
         <PostCard
           title='JavaScript/TypeScript'
-          shortText='-'
+          shortText='HTML/CSS'
           description={
             <>
-              - Vast Experience with React- <br />
-              - Experienced with OOP - <br />
-              - Experienced with Data Structures and - <br />
-              - Algorithms - <br />
-              - Basic knowledge of testing - <br />
+              - Experienced with React- <br />
+              - Experienced with Material UI - <br />
+              - Experienced with HTML and CSS - <br />
+              - Basic knowledge of Redux - <br />
             </>
           }
           logo={<CodeSVG width={64} height={64}></CodeSVG>}

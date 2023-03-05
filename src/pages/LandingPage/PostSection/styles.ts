@@ -6,7 +6,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   mainContainer: {
     display: 'flex',
     flex: 1,
-    height: 600,
+    height: 700,
     paddingBottom: 128,
     flexDirection: 'column',
     justifyContent: 'center',
@@ -60,6 +60,9 @@ const useStyles = makeStyles((theme: Theme) => ({
     color: '#FFFFFF',
     alignSelf: 'center',
     fontWeight: 1200,
+    [theme.breakpoints.down('lg')]: {
+      display: 'none',
+    },
   },
 }));
 

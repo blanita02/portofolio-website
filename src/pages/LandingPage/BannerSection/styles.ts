@@ -13,6 +13,11 @@ const useStyles = makeStyles((theme: Theme) => ({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    [theme.breakpoints.down('lg')]: {
+      flexDirection: 'column',
+      rowGap: 36,
+      overflow: 'scroll',
+    },
   },
   imageContainer: {
     display: 'flex',

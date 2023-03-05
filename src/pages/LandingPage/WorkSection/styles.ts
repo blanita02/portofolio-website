@@ -26,6 +26,9 @@ const useStyles = makeStyles((theme: Theme) => ({
     color: '#FFFFFF',
     alignSelf: 'center',
     fontWeight: 1200,
+    [theme.breakpoints.down('lg')]: {
+      display: 'none',
+    },
   },
 
   //----------> KEYFRAMES <----------

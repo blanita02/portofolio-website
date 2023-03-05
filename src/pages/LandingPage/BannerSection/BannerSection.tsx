@@ -12,6 +12,7 @@ const BannerSection = () => {
       <Box className={classes.textContainer}>
         <Typography className={classes.title}>About Me</Typography>
         <Typography className={classes.subtitle}>
+          - My name is Nistor Alexandru - <br />
           - Highly motivated Computer Science & Mathematics Student - <br />
           - Second year of college at UBB Cluj-Napoca - <br /> - Web Developer -{' '}
           <br />

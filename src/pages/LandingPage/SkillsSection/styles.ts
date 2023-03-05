@@ -21,11 +21,19 @@ const useStyles = makeStyles((theme: Theme) => ({
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
+    [theme.breakpoints.down('lg')]: {
+      flexDirection: 'column',
+      alignItems: 'center',
+      rowGap: 36,
+    },
   },
   dividerText: {
     color: '#FFFFFF',
     alignSelf: 'center',
     fontWeight: 1200,
+    [theme.breakpoints.down('lg')]: {
+      display: 'none',
+    },
   },
 
   //----------> KEYFRAMES <----------

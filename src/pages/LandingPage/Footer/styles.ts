@@ -7,11 +7,17 @@ const useStyles = makeStyles((theme: Theme) => ({
   mainContainer: {
     display: 'flex',
     flex: 1,
+    minHeight: 128,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
   },
   logoContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  socialMediaContainer: {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

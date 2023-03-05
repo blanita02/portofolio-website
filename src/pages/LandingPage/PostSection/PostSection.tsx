@@ -35,8 +35,8 @@ const PostSection = () => {
           {imageListData.map((item) => (
             <ImageListItem className={classes.imageItem} key={item.img}>
               <img
-                src={`${item.img}?w=948`}
-                srcSet={`${item.img}?w=948`}
+                src={`${item.img}?w=948&fit=crop&auto=format`}
+                srcSet={`${item.img}?w=948&fit=crop&auto=format&dpr=2 2x  `}
                 alt={item.title}
                 loading='lazy'
               />
@@ -47,8 +47,9 @@ const PostSection = () => {
                   <IconButton
                     sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
                     aria-label={`info about ${item.title}`}
+                    onClick={() => window.open(item.web_url, '_blank')}
                   >
-                    Go
+                    ABOUT
                   </IconButton>
                 }
               />

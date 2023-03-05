@@ -3,6 +3,7 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import { useStyles } from './styles';
 import { LogoSign } from 'src/assets/img/index';
+import { LinkedinSVG } from 'src/assets/index';
 
 const Footer = () => {
   const classes = useStyles();
@@ -10,9 +11,21 @@ const Footer = () => {
     <Box className={classes.mainContainer}>
       <Box className={classes.logoContainer}>
         <img src={LogoSign} width={64} height={64} />
-        <Typography className={classes.logoText}>Nistor Alexandru</Typography>
+        <Typography className={classes.logoText}>
+          Copyright © 2023 - All Right Reserved.
+        </Typography>
       </Box>
-      
+      <Box className={classes.socialMediaContainer}>
+        <LinkedinSVG
+          onClick={() =>
+            window.open(
+              'https://www.linkedin.com/in/alexandru-nistor-135b89232/'
+            )
+          }
+          width={48}
+          height={48}
+        />
+      </Box>
     </Box>
   );
 };
