@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     '&.MuiTypography-root': {
       fontFamily: 'Fjalla One, sans-serif',
       fontWeight: 300,
-      fontSize: 20,
+      fontSize: 28,
       color: '#FFFFFF',
       textShadow: '2px 2px 6px rgba(0, 0, 0, 0.70)',
     },

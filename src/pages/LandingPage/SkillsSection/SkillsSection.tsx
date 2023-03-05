@@ -28,7 +28,7 @@ const SkillsSection = () => {
               - Experienced with databases - <br />
             </>
           }
-          logo={<CodeSVG width={64} height={64}></CodeSVG>}
+          logo={<CodeSVG width={64} height={64} display={'none'}></CodeSVG>}
         />
         <PostCard
           title='Python'
@@ -42,7 +42,7 @@ const SkillsSection = () => {
               - Basic knowledge of testing - <br />
             </>
           }
-          logo={<CodeSVG width={64} height={64}></CodeSVG>}
+          logo={<CodeSVG width={64} height={64} display={'none'}></CodeSVG>}
         />
         <PostCard
           title='C/C++'
@@ -55,7 +55,7 @@ const SkillsSection = () => {
               - Basic knowledge of testing - <br />
             </>
           }
-          logo={<CodeSVG width={64} height={64}></CodeSVG>}
+          logo={<CodeSVG width={64} height={64} display={'none'}></CodeSVG>}
         />
         <PostCard
           title='JavaScript/TypeScript'
@@ -68,7 +68,7 @@ const SkillsSection = () => {
               - Basic knowledge of Redux - <br />
             </>
           }
-          logo={<CodeSVG width={64} height={64}></CodeSVG>}
+          logo={<CodeSVG width={64} height={64} display={'none'}></CodeSVG>}
         />
       </Box>
     </Box>

@@ -27,14 +27,6 @@ const useStyles = makeStyles((theme: Theme) => ({
       rowGap: 36,
     },
   },
-  dividerText: {
-    color: '#FFFFFF',
-    alignSelf: 'center',
-    fontWeight: 1200,
-    [theme.breakpoints.down('lg')]: {
-      display: 'none',
-    },
-  },
 
   //----------> KEYFRAMES <----------
 
@@ -45,6 +37,15 @@ const useStyles = makeStyles((theme: Theme) => ({
       fontSize: 36,
       color: '#FFFFFF',
       textShadow: '0px 0px 20px rgba(0, 0, 0, 0.70)',
+    },
+  },
+
+  dividerText: {
+    color: '#FFFFFF',
+    alignSelf: 'center',
+    fontWeight: 1200,
+    [theme.breakpoints.down('lg')]: {
+      display: 'none',
     },
   },
 }));

@@ -26,7 +26,8 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
   textContainer: {
     borderRadius: 16,
-    outline: `12px solid ${colors.GREY}`,
+    minHeight: 420,
+    background: `${colors.GREY}`,
     display: 'flex',
     paddingInline: 24,
     width: '50%',
@@ -34,6 +35,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     gap: 16,
+    boxShadow: '2px 2px 24px rgba(0, 0, 0, 0.45)',
   },
 
   //----------> KEYFRAMES <----------\
@@ -70,7 +72,6 @@ const useStyles = makeStyles((theme: Theme) => ({
       fontWeight: 300,
       fontSize: 28,
       color: '#FFFFFF',
-      textShadow: '2px 2px 6px rgba(0, 0, 0, 0.70)',
     },
   },
 }));
